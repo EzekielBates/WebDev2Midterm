@@ -1,0 +1,53 @@
+html{
+    background:url(Images/MidtermBackground.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
+body{
+    width:85%;
+    margin:auto;
+}
+
+#raceDiv{
+    position: absolute;
+    top:65%;
+}
+
+#racer1, #racer2{
+    position:absolute;
+    width:100px;
+    height:100px;
+}
+
+#racer1{
+    top:70px;
+}
+
+#racer2{
+    top:100px;
+}
+
+.showImage{
+    display:inline;
+}
+
+.hideImage{
+    display:none;
+}
+
+#racer2Winner,#racer1Winner{
+    position:absolute;
+    left:35%;
+}
+
+#greenLight,#redLight{
+    position:absolute;
+    width:100px;
+    height:100px;
+}
+
+#finishLine{
+    position:absolute;
+    left:1150px;
+}
